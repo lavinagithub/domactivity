@@ -1,0 +1,41 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+  /* background-color: rgb(233, 57, 57); */
+}
+
+.flex-container > div {
+  flex: 50%;
+  /* background-color: rgb(214, 250, 238); */
+  border:2px solid rgb(214, 250, 238);
+  color: #2d2926ff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+.simleyDiv,
+.displayMessage {
+  display: none;
+}
+.nameDiv{
+    background-color: rgb(214, 250, 238); 
+}
+.simleyDiv {
+  background-color: white;
+}
+.simleyDiv img {
+  height: 150px;
+  width: 150px;
+}
+.beachimg {
+  height: 300px;
+  width: 500px;
+}
